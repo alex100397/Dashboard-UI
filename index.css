@@ -1,3 +1,5 @@
+/* Dashboard - Style Sheet */
+
 * {
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -311,25 +313,26 @@ circle {
   width: 100px;
 }
 
-.mobile-drop{
+.mobile-drop {
   display: none;
 }
 
-@media (min-width: 300px) and (max-width: 765px) {
+/* Mobile Breakpoint */
 
-  .main-layout{
+@media (min-width: 300px) and (max-width: 765px) {
+  .main-layout {
     background-color: rgb(247, 247, 247);
   }
 
-  .side-bar-mobile{
+  .side-bar-mobile {
     width: 100%;
   }
 
-  .side-bar{
+  .side-bar {
     display: none;
   }
 
-  .mobile-drop{
+  .mobile-drop {
     display: block;
   }
 
@@ -362,9 +365,20 @@ circle {
   }
 }
 
+/* Tablet Breakpoint */
+
 @media (min-width: 768px) and (max-width: 992px) {
   .avatar1 {
     height: 100%;
     width: 100%;
+  }
+
+  .ring {
+    height: 80px;
+    width: 80px;
+  }
+
+  .insta-container {
+    overflow-x: auto;
   }
 }
